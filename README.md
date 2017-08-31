@@ -12,6 +12,15 @@ vi /var/tmp/bundles/plugins/plugin_identifiers.json
 }
 ```
 
+## 플러그인 복사하기
+
+```
+mkdir /var/tmp/bundles/plugins/java/killbill-ingenico
+mkdir /var/tmp/bundles/plugins/java/killbill-ingenico/1.0
+
+cp <path of jar file> /var/tmp/bundles/plugins/java/killbill-ingenico/1.0/
+```
+
 ## 플러그인 링크 걸기
 
 ```
